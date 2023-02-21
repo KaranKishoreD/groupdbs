@@ -3,7 +3,7 @@
     font-family: 'Lato';
 }
 body{
-    background-image: url("bg.jpg");
+    background-image: url("bg.jpeg");
 }
 .title{
     display:flex;

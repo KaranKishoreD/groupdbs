@@ -2,8 +2,7 @@
 *{
     font-family: 'Lato';
 }
-body
-{
+body{
     background-image: url("bg.jpg");
 }
 .title{
@@ -31,7 +30,7 @@ h1 {
     font-size: 16em;
 
 }
-h1 span{
+.hw{
     font-size:125px;
     display:table-cell;
     margin:0;
@@ -134,7 +133,7 @@ body h1
 #container a
 {
     text-decoration: none;
-    color: black;
+    color: rgb(0, 0, 0);
 
 }
 #container a:hover
@@ -144,14 +143,14 @@ body h1
 .GradientBorder 
 {
   position: relative;
-  width: 450px;
+  width: 550px;
   padding: 40px 0;
-  font-size: 5em;
+  font-size: 40px;
   color: #fff;
   text-align: center;
   letter-spacing: 5px;
-  background: #020117;
-  transition: color 2s, background-color 2s;
+  background: #f45f32;
+  transition: color 0.5s;
 }
 .GradientBorder::after {
   content: '';
@@ -174,8 +173,13 @@ body h1
   z-index: -2;
   filter: blur(40px);
 }
-.GradientBorder:hover{
-    color:black;
-    background-color: white;
 
+.GradientBorder:hover{
+    color:rgb(85, 26, 36);
+    background: linear-gradient(75deg,red,10%, rgb(224, 157, 33),rgb(220, 44, 202));
+    font-size: 50px;
+}
+.rno{
+    font-size:70px;
+    color:rgb(255, 255, 255);
 }
